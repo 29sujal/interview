@@ -27,21 +27,7 @@ A real-time AI news monitoring system that scrapes Google News RSS for articles 
 
 ---
 
-## 📂 Project Structure
 
-```
-
-interview/
-│
-├── scraper/
-│   └── scraper.py           # Python script that scrapes and sends notifications
-│   └── seen.json            # Stores URLs of already sent articles
-│
-├── server/
-│   └── index.js             # Webhook endpoint using Express.js
-│   └── notifications.log    # Logs received articles
-
-````
 
 ---
 
